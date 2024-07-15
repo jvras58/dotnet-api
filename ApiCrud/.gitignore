@@ -39,3 +39,6 @@
 *.exp
 *.lib
 *.dll
+
+# database
+Banco.sqlite

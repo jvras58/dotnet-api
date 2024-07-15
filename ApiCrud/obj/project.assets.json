@@ -3006,23 +3006,23 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
-      "Swashbuckle.AspNetCore >= 6.5.4"
+      "Swashbuckle.AspNetCore >= 6.6.1"
     ]
   },
   "packageFolders": {
-    "/home/jvras/.nuget/packages/": {}
+    "C:\\Users\\jvras\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jvras/Área de Trabalho/dotnet-api/ApiCrud/ApiCrud.csproj",
+      "projectUniqueName": "C:\\Users\\jvras\\Desktop\\dotnet-api\\ApiCrud\\ApiCrud.csproj",
       "projectName": "ApiCrud",
-      "projectPath": "/home/jvras/Área de Trabalho/dotnet-api/ApiCrud/ApiCrud.csproj",
-      "packagesPath": "/home/jvras/.nuget/packages/",
-      "outputPath": "/home/jvras/Área de Trabalho/dotnet-api/ApiCrud/obj/",
+      "projectPath": "C:\\Users\\jvras\\Desktop\\dotnet-api\\ApiCrud\\ApiCrud.csproj",
+      "packagesPath": "C:\\Users\\jvras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jvras\\Desktop\\dotnet-api\\ApiCrud\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jvras/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\jvras\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3040,6 +3040,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3066,7 +3071,7 @@
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "[6.5.4, )"
+            "version": "[6.6.1, )"
           }
         },
         "imports": [
@@ -3088,20 +3093,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ApiCrud depends on Swashbuckle.AspNetCore (>= 6.5.4) but Swashbuckle.AspNetCore 6.5.4 was not found. An approximate best match of Swashbuckle.AspNetCore 6.6.1 was resolved.",
-      "libraryId": "Swashbuckle.AspNetCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
