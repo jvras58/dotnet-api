@@ -67,7 +67,13 @@ dotnet build
 # Para instalar as dependências de um projeto C# caso o comando anterior não tenha feito
 dotnet restore
 
+# Aplique as migrations
+dotnet ef database update
+```
+- Caso ocorra um erro na aplicação das migrations e necessario seguir o [guia de inicio](inicio.md) 
+
 # Inicie a API
+```bash
 dotnet run
 ```
 
